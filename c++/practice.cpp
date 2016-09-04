@@ -1,8 +1,7 @@
 #include <iostream>
 #include <typeinfo>
-
-struct A {};
-using namespace std;
+#include <vector>
+#include "practice.h"
 
 int main() {
   quiz_157();
