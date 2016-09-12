@@ -8,9 +8,9 @@ TwoSum::TwoSum() {
 vector<int> TwoSum::solver(vector<int>& nums, int target) {
   for(int i=0; i<nums.size(); i++) {
     for(int j=0; j<nums.size(); j++) {
-      int value = nums[i] + nums[j];
+      int sum = nums[i] + nums[j];
     
-      if ((value == target) && (i != j)) { // Return if value equals target
+      if ((sum == target) && (i != j)) { // Return if sum equals target
         vector<int> return_vector = {i,j};
         return return_vector;
       }
