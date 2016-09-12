@@ -11,8 +11,8 @@ vector<int> TwoSum::solver(vector<int>& nums, int target) {
       int value = nums[i] + nums[j];
     
       if ((value == target) && (i != j)) { // Return if value equals target
-        vector<int> return_value = {i,j};
-        return return_value;
+        vector<int> return_vector = {i,j};
+        return return_vector;
       }
     }
   }
