@@ -10,5 +10,6 @@ class TwoSum
 public:
   TwoSum();
   vector<int> solver(vector<int>&, int);
+  vector<int> solver_naive(vector<int>&, int);
   bool test_case();
 }; 
