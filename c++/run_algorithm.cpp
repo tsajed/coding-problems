@@ -1,8 +1,8 @@
-#include "practice.h"
+#include "two_sum.h"
 
 int main() {
   
-  // Solve simple programming problems in c++
+  // Run objects of solutions from LeetCode or UvA and test them
   TwoSum two_sum;
   bool result = two_sum.test_case();
   if (result)
