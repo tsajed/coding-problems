@@ -3,3 +3,6 @@
 #include <iostream>
 #include <typeinfo>
 #include <vector>
+#include <algorithm>
+
+using namespace std;
