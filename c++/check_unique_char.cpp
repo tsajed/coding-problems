@@ -20,6 +20,6 @@ bool CheckUniqueChar::solver_sorted(std::string test_string) {
 
 } 
 
-bool CheckUniqueChar:test_case() {
+bool CheckUniqueChar::test_case() {
 
 }
