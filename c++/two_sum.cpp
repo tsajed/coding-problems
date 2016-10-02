@@ -5,6 +5,10 @@ TwoSum::TwoSum() {
 
 }
 
+TwoSum::~TwoSum() {
+
+}
+
 // Naive solver with n^2 runtime
 vector<int> TwoSum::solver_naive(vector<int>& nums, int target) {
   for(int i=0; i<nums.size(); i++) {
