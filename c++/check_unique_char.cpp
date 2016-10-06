@@ -12,7 +12,9 @@ CheckUniqueChar::~CheckUniqueChar() {
 
 // Takes O(n) running time
 bool CheckUniqueChar::solver_boolean(std::string test_string) {
-
+	if (test_string == "") {
+		return false;
+	}
 }
 
 // Takes O(nlogn) running time
