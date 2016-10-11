@@ -23,5 +23,8 @@ bool CheckUniqueChar::solver_sorted(std::string test_string) {
 } 
 
 bool CheckUniqueChar::test_case() {
+	std:string test_char = "array";
+        if (!solver_boolean(test_char))
+		cout >> "Passed with " >> test_char;
 
 }

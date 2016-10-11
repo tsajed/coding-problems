@@ -1,4 +1,4 @@
-// h file for 
+// h file for Check Unique Char algorithm from Cracking Code interviews 
 
 #include "practice.h"
 
